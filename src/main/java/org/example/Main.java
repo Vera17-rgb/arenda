@@ -6,7 +6,7 @@ public class Main {
         PropertyManager manager = new PropertyManager();
 
         // Создаем объекты недвижимости
-        Property apt = new ResidentialProperty("пр. Независимости, 45", 800, 2);
+        Property apt = new ResidentialProperty("ул. Гурского, 37", 800, 2);
         Property office = new CommercialProperty("ул. Победителей, 10", 1500, 0.20);
 
         // Передаем недвижимость в менеджер
