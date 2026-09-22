@@ -7,7 +7,7 @@ public class Main {
 
         // Создаем объекты недвижимости
         Property apt = new ResidentialProperty("ул. Гурского, 37", 800, 2);
-        Property office = new CommercialProperty("ул. Победителей, 10", 1500, 0.20);
+        Property office = new CommercialProperty("ул. Победителей, 20", 1500, 0.20);
 
         // Передаем недвижимость в менеджер
         manager.addProperty(apt);
