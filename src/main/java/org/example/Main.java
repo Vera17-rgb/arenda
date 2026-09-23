@@ -16,7 +16,7 @@ public class Main {
         manager.addProperty(office);
 
         // Создаем арендатора и формируем отчёт
-        Tenant tenant = new Tenant("ИП Иванов А. В.");
+        Tenant tenant = new Tenant("ИП Иванов А. К.");
         manager.generateReportForTenant(tenant);
     }
 }
